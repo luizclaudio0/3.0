@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Se Liga</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/modern-business.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+		
+	</head>
+	<body>
+		<!--*****************************************BARRA_DE_NAVEGAÇÃO*************************************************-->
+	   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<img src="img/Micro_Logo.png">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			   		<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" class="active" href="index.html">Inicio</a>
+						</li>
+					   	<li class="nav-item">
+							<a id="MyBtn" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            				<i class="fa fa-fw fa-sign-out"></i>Cadastro</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contatos</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="startbootstrap-blog-post-gh-pages/index.html">Dúvidas</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="#">Quem Somos?</a>
+					   	</li>
+					</ul>
+        			<div class="col-md-3 col-md-offset-3">
+            			<form action="" class="search-form">
+                			<div class="form-group has-feedback">
+            					<label for="search" class="sr-only">Search</label>
+								<input class="form-control" name="search" id="search" placeholder="search" type="text">
+								<span class="glyphicon glyphicon-search form-control-feedback"></span>
+            				</div>
+            			</form>
+        			</div>
+				</div>
+		  	</div>
+    	</nav>
+		<!--*********************************************CAROUSEL*************************************************-->
+		<header>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<!--Imagens do carousel-->
+		    	<div class="carousel-inner" role="listbox">
+		      		<!--Imagem 1-->
+				  	<div class="carousel-item active" style="background-image: url('img/marca_IFET_pernambuco_2.jpg')">
+				    	<div class="carousel-caption d-none d-md-block">
+				      		<h3>Fardamento</h3>
+				      		<p>Alunos do campus Jaboatão recebem farda.</p>
+				    	</div>
+		      		</div>
+		      		<!--Imagem 2-->
+		      		<div class="carousel-item" style="background-image: url('img/imga.jpg')">
+		        		<div class="carousel-caption d-none d-md-block">
+		          			<h3>Second Slide</h3>
+		          			<p>This is a description for the second slide.</p>
+		        		</div>
+		      		</div>
+		      		<!--Imagem 3-->
+		      		<div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+		        		<div class="carousel-caption d-none d-md-block">
+		          			<h3>Third Slide</h3>
+		          			<p>This is a description for the third slide.</p>
+		        		</div>
+		      		</div>
+		    	</div>
+		    	<!--Controlador do Carousel-->
+		    	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		      		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		      		<span class="sr-only">Previous</span>
+		    	</a>
+		    	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		      		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		      		<span class="sr-only">Next</span>
+		    	</a>
+		  	</div>
+		</header>
+		<!--*********************************************RECENTES************************************************-->
+		<div class="col-lg-6">
+			<div class="card card-outline-secondary my-4">
+		      	<div class="card-header">
+		        	<h1>Recentes</h1>
+		        </div>
+		        <div class="card-body">
+		       		<a href="fardamento.html">
+					<p class="font-title">Fardamento Está Chegando!!!</p>
+				</a>
+		       		<small class="text-muted">Postado por Luiz em 03/01/2017</small>
+		          	<hr>
+		          	<p class="font-title">Monitores remunerados ganharão aumento</p>
+		          	<small class="text-muted">Postado por Erik em 08/02/2017</small>
+		          	<hr>
+		          	<p class="font-title">Aberta inscrições para IFPE</p>
+		          	<small class="text-muted">Postado por Gustavo em 09/07/2017</small>
+		          	<hr>
+		          	<p class="font-title">Curso tecnologo de redes estará disponivel esse ano</p>
+		          	<small class="text-muted">Postado por Gabriel em 25/12/2017</small>
+		          	<hr>
+				<span style="text-align:right">
+		          	<a href="#" class="btn btn-success">Ler mais...</a>
+				</span>
+		        </div>
+		 	</div>
+         </div>
+		<!--******************************************FOOTER*******************************************************-->
+    	<footer class="py-5 bg-dark">
+      		<div class="container">
+        		<p class="m-0 text-center text-white">Copyright &copy; Projeto Integrador 2018. Todos os direitos reservados.</p>
+      		</div>
+    	</footer>
+    	<!--********************************************MODAL*****************************************************-->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      		<div class="modal-dialog" role="document">
+        		<div class="modal-content" id="modal-content">
+        			<div class="modal-header">
+        				<img src="img/Logo.jpg" width="30%">
+            			<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              				<span aria-hidden="true">×</span>
+            			</button>
+          			</div>
+          			<div class="modal-body">
+						<fieldset>
+							<legend>Cadastro</legend>
+							<form method="POST" action="cadastro.php">
+								<label>Nome&nbsp;</label><input type="text" name="nome"><br><br>
+								<label>E-mail&nbsp;</label><input type="email" name="email"><br><br>
+							</form>
+						</fieldset>
+					</div>
+					<div class="modal-footer">
+            			<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            			<a class="btn btn-primary" href="login.html">Cadastrar</a>
+          			</div>
+        		</div>
+      		</div>
+		</div>
+		<!--*********************************************************************************************************-->
+  		<script src="js/bootstrap.min.js"></script>
+    	<script src="jquery/jquery.min.js"></script>
+    	<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

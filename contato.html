@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  	<head>
+		<title>Se Liga</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/modern-business.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+  	</head>
+  	<body>
+  		<!--*****************************************BARRA_DE_NAVEGAÇÃO*************************************************-->
+	    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<img src="img/Micro_Logo.png">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			   		<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+					   	<li class="nav-item">
+							<a id="MyBtn" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            				<i class="fa fa-fw fa-sign-out"></i>Cadastro</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contatos</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="startbootstrap-blog-post-gh-pages/index.html">Dúvidas</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="#">Quem Somos?</a>
+					   	</li>
+					</ul>
+				</div>
+		  	</div>
+    	</nav>
+    	<!--********************************************CONTATOS********************************************************-->
+	    <div class="container">
+	   		<h1 class="mt-4 mb-3">Contato</h1>
+      		<ol class="breadcrumb">
+		    	<li class="breadcrumb-item">
+		    		<a href="index.html">Inicio</a>
+			    </li>
+			    <li class="breadcrumb-item active">Contatos</li>
+		  	</ol>
+      		<div class="row">
+		    	<div class="col-lg-8 mb-4">
+		      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.881289757805!2d-35.0178574471217!3d-8.113568118415719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1d161a9c33d1%3A0x72dbe24edf957fff!2sSesi+Jaboat%C3%A3o!5e0!3m2!1sen!2sbr!4v1530762074043" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		    	</div>
+		    	<div class="col-lg-4 mb-4">
+		      		<h3>Detalhes</h3>
+		      		<p>
+				    	Av. Barão de Lucena, 251
+				    	<br>Centro, Jaboatão dos Guararapes
+				    	<br>PE, 54110-051
+				    	<br>
+				  	</p>
+				  	<p>
+				    	<abbr title="Phone">Telefone</abbr>: (81) 4002-8922
+				  	</p>
+				  	<p>
+				    	<abbr title="Email">E-mail</abbr>:
+				    	<a href="mailto:name@example.com">jaboatao.ifpe@jaboatao.ifpe.edu.br
+				    	</a>
+				  	</p>
+				  	<p>
+				    	<abbr title="Hours">Horário</abbr>: Segunda - Sábado: 13h às 22h
+				  	</p>
+		    	</div>
+			</div>
+			<!--************************************CONTATOS_MENSAGEM**************************************************-->
+		  	<div class="row">
+		    	<div class="col-lg-8 mb-4">
+		      		<h3>Envie Sua Mensagem</h3>
+		      		<form name="sentMessage" id="contactForm" action="mail.php" method="POST" novalidate>
+		        		<div class="control-group form-group">
+		          			<div class="controls">
+		            			<label>Nome Completo:</label>
+		            			<input type="text" class="form-control" id="name" name="nome" required data-validation-required-message="Please enter your name.">
+		            			<p class="help-block"></p>
+		          			</div>
+		        		</div>
+		        		<div class="control-group form-group">
+		          			<div class="controls">
+		            			<label>E-mail:</label>
+		            			<input type="email" class="form-control" id="email" name="mail" required data-validation-required-message="Please enter your email address.">
+		          			</div>
+		        		</div>
+		        		<div class="control-group form-group">
+		          			<div class="controls">
+		            			<label>Assunto:</label>
+		            			<input type="text" class="form-control" id="subject" name="assunto" required data-validation-required-message="Please enter your email address.">
+		          			</div>
+		        		</div>
+		        		<div class="control-group form-group">
+		          			<div class="controls">
+		            			<label>Mensagem:</label>
+		            			<textarea rows="10" cols="100" class="form-control" id="message" name="mensagem" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+		          			</div>
+		        		</div>
+		        		<div id="success"></div>
+		        			<button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+		      		</form>
+		    	</div>
+			</div>
+		</div><!--FECHA A TAG CONTAINER-->
+		<!--********************************************FOOTER*****************************************************-->
+		<footer class="py-5 bg-dark">
+		  	<div class="container">
+		   		<p class="m-0 text-center text-white">Copyright &copy; Projeto Integrador 2018. Todos os direitos reservados.</p>
+		  	</div>
+		</footer>
+		<!--********************************************MODAL*****************************************************-->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      		<div class="modal-dialog" role="document">
+        		<div class="modal-content" id="modal-content">
+        			<div class="modal-header">
+        				<img src="img/Logo.jpg" width="30%">
+            			<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              				<span aria-hidden="true">×</span>
+            			</button>
+          			</div>
+          			<div class="modal-body">
+						<fieldset>
+							<legend>Cadastro</legend>
+							<form method="POST" action="cadastro.php">
+								<label>Nome&nbsp;</label><input type="text" name="nome"><br><br>
+								<label>E-mail&nbsp;</label><input type="email" name="email"><br><br>
+							</form>
+						</fieldset>
+					</div>
+					<div class="modal-footer">
+            			<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            			<a class="btn btn-primary" href="login.html">Cadastrar</a>
+          			</div>
+        		</div>
+      		</div>
+		</div>
+		<!--*********************************************************************************************************-->
+		<script src="jquery/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+		<script src="js/jqBootstrapValidation.js"></script>
+		<script src="js/contact_me.js"></script>
+  	</body>
+</html>

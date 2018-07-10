@@ -1,0 +1,109 @@
+<html>
+<head>
+		<title>Se Liga</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/modern-business.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+<style>
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<img src="img/Micro_Logo.png">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			   		<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" class="active" href="index.html">Inicio</a>
+						</li>
+					   	<li class="nav-item">
+							<a id="MyBtn" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            				<i class="fa fa-fw fa-sign-out"></i>Cadastro</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contatos</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="startbootstrap-blog-post-gh-pages/index.html">Dúvidas</a>
+					   	</li>
+					   	<li class="nav-item">
+							<a class="nav-link" href="#">Quem Somos?</a>
+					   	</li>
+					</ul>
+					<div class="col-md-3 col-md-offset-2">
+            			<form action="" class="search-form">
+                			<div class="form-group has-feedback">
+            					<label for="search" class="sr-only">Search</label>
+								<input class="form-control" name="search" id="search" placeholder="search" type="text">
+								<span class="glyphicon glyphicon-search form-control-feedback"></span>
+            				</div>
+            			</form>
+        			</div>
+				</div>
+		  	</div>
+    	</nav>
+<script src="js/bootstrap.min.js"></script>
+    	<script src="jquery/jquery.min.js"></script>
+    	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
